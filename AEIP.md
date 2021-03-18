@@ -1,3 +1,9 @@
+- [OOP](#oop)
+  - [Abstraction](#abstraction)
+  - [Encapsulation](#encapsulation)
+  - [Inheritance](#inheritance)
+  - [Polymorphism](#polymorphism)
+
 ## OOP
 ### Abstraction
 抽象是一种反映真实世界**对象**或**现象中**特定内容的**模型**, 它能高精度地反映所有与特定内容相关的详细信息, 同时**忽略其他内容**。
@@ -27,13 +33,11 @@
 <p align="center"><img style="display: block; width: 600px; margin: 0 auto;" src=img/2021-03-18-09-30-27.png alt="no image found"></p>
 
 ```java
-const bag = [new Cat(), new Dog()];
+Bag bag = [new Cat(), new Dog()];
 
 // 遍历每一个Animal而不是每一个不同类型的animal
 // Animal是个统称
-foreach (Animal a : bag) 
+for (Animal a: bag) {
     a.makeSound()
-
-// 喵喵！
-// 汪汪！
+}
 ```
