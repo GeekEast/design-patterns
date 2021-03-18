@@ -8,3 +8,4 @@
 ## References
 - [OOP](./AEIP.md)
 - [Relation Between Objects](./relations.md)
+- [Great Design Measurement](./great_design.md)
