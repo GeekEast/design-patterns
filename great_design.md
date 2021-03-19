@@ -1,7 +1,9 @@
-# Great Design
+- [Great Design](#great-design)
+  - [Code Reusability](#code-reusability)
+  - [Extensibility](#extensibility)
+## Great Design
 
-
-## Code Reusability
+### Code Reusability
 
 无论是开发何种软件产品， **成本**和**时间**都最重要的两个维度。 
 - 较短的开发时间意味着可比竞争对手更早进入市场
@@ -10,7 +12,7 @@
 
 **代码复用**是减少开发成本时最常用的方式之一。 其意图非常明显：**与其反复从头开发， 不如在新对象中重用已有代码**。
 
-## Extensibility
+### Extensibility
 **变化**是程序员生命中**唯一不变**的事情。
 
 首先, 我们在**开始着手解决问题后才能更好地理解问题**。 通常在完成了第一版的程序后, 你就做好了**从头开始重写代码**的准备, 因为现在你已经能在**很多方面更好地理解问题**了, 同时在专业水平上也有所提高, 所以之前的代码现在看上去可能会显得很糟糕。
