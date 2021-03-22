@@ -7,7 +7,8 @@
 
 ## References
 - [Inheritance, Encapsulation, Interface, Polymorphism](./AEIP.md)
-- [Relation Between Objects](./relations.md)
+- [Types of Relation Between Objects](./relations.md)
+- [Intro to Design Patterns](./intro.md)
 - [Great Design Measurement](./great_design.md)
 - [Design Principles](./principles.md)
 - [SOLID Principles](./solid.md)

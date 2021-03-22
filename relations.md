@@ -3,9 +3,21 @@
   - [Association](#association)
   - [Aggregation](#aggregation)
   - [Composition](#composition)
-- [Summary](#summary)
 
 ## Relations Between Objects
+
+
+- **Dependency**:  **class A** changes **affect** **class B**
+  - **Association**: ObjectA knows ObjectB
+    - **Aggregation**: ObjectA consists of ObjectB
+      - **Composition**:  ObjectA manages ObjectB lifecycle
+
+  - **Polymorphism**: **ObjectA** can be seen as **ObjectB**
+    - **Implementation**: ClassA's behaviours are declared by **InterfaceB**
+    - **Inheritance**: ClassA inherits ClassB and implements ClassB's interface. 
+
+<p align="center"><img style="display: block; width: 600px; margin: 0 auto;" src=img/2021-03-18-14-32-13.png alt="no image found"></p>
+
 ### Dependency
 一个类的定义的修改会引起另外一个类的修改, 例如: `一个类的方法传入另外一个类的方法作为参数`
 
@@ -70,17 +82,3 @@ public class Professor {
 <p align="center"><img style="display: block; width: 600px; margin: 0 auto;" src=img/2021-03-18-14-16-34.png alt="no image found"></p>
 
 > 经常说的"组合优于继承"，其实应该是"聚合优于继承"
-
-## Summary
-
-<p align="center"><img style="display: block; width: 600px; margin: 0 auto;" src=img/2021-03-18-14-32-13.png alt="no image found"></p>
-
-
-- **Dependency**:  **class A** changes **affect** **class B**
-  - **Association**: ObjectA knows ObjectB
-    - **Aggregation**: ObjectA consists of ObjectB
-      - **Composition**:  ObjectA manages ObjectB 
-
-  - **Polymorphism**: **ObjectA** can be seen as **ObjectB**
-    - **Implementation**: ClassA's behaviours are declared by **InterfaceB**
-    - **Inheritance**: ClassA inherits ClassB and implements ClassB's interface. 

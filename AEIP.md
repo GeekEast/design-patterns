@@ -5,6 +5,13 @@
   - [Polymorphism](#polymorphism)
 
 ## OOP
+
+| **Pillar**        | **Description**                       |
+| :---------------: | ------------------------------------- |
+| **Abstraction**   | 从现实世界中抽取当前context下`所需特征` |
+| **Encapsulation** | 隐藏部分状态行为，暴露`有限`接口        |
+| **Inheritance**   | `代码复用`的一种方式                    |
+| **Polymorphism**  | 检测对象所属`实际类`, 调用其方法      |
 ### Abstraction
 抽象是一种反映真实世界**对象**或**现象中**特定内容的**模型**, 它能高精度地反映所有与特定内容相关的详细信息, 同时**忽略其他内容**。
 - 模型是对现实世界物象特性的提取
@@ -41,3 +48,5 @@ for (Animal a: bag) {
     a.makeSound()
 }
 ```
+
+
